@@ -1,5 +1,13 @@
 package com.simplilearn.estore.admin.module;
 
-public class Admins {
+import java.util.Date;
 
+public class Admins {
+	
+	 	Integer adminId;
+	    String email;
+	    String password;
+	    String fullName;
+	    Integer loginType;
+	    Date addedOn;
 }
